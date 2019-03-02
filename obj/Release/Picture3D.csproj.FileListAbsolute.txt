@@ -1,0 +1,14 @@
+C:\Users\anton\Desktop\Picture3D\bin\Release\Picture3D.exe.config
+C:\Users\anton\Desktop\Picture3D\bin\Release\Picture3D.exe
+C:\Users\anton\Desktop\Picture3D\bin\Release\Picture3D.pdb
+C:\Users\anton\Desktop\Picture3D\obj\Release\MainWindow.g.cs
+C:\Users\anton\Desktop\Picture3D\obj\Release\App.g.cs
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D_MarkupCompile.cache
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D_MarkupCompile.lref
+C:\Users\anton\Desktop\Picture3D\obj\Release\MainWindow.baml
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D.g.resources
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D.Properties.Resources.resources
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D.csproj.GenerateResource.cache
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D.exe
+C:\Users\anton\Desktop\Picture3D\obj\Release\Picture3D.pdb
