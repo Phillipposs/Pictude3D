@@ -33,7 +33,7 @@ namespace Picture3D
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;
             worker.WorkerReportsProgress = true;
             CurrentAlgorythm = "";
-
+            
         }
 
         private readonly BackgroundWorker worker = new BackgroundWorker();
@@ -184,7 +184,6 @@ namespace Picture3D
             bitmap.BeginInit();
             bitmap.UriSource = new Uri(fullpath);
             bitmap.EndInit();
-
             bitmap.Freeze();
             e.Result = new BackgroundHelperResponse
             {
@@ -194,7 +193,6 @@ namespace Picture3D
             
             newImage.Dispose();
         }
-
         private void worker_RunWorkerCompleted(object sender,
             RunWorkerCompletedEventArgs e)
         {
@@ -204,16 +202,14 @@ namespace Picture3D
 
             //Update gui with new values for filters
             SetFilterValues();
+            
         }
-
         private void SetFilterValues()
         {
             slColorR.Value = AnaglyphParameters.RedVolume;
             slColorG.Value = AnaglyphParameters.GreenVolume;
             slColorB.Value = AnaglyphParameters.BlueVolume;
         }
-
-
         public class BackgroundHelperRequest
         {
             public Bitmap image;

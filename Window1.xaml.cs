@@ -69,6 +69,7 @@ namespace MediaSampleWPF
         #region Play and Pause
         private void btnPlay_Click(object sender, RoutedEventArgs e)
         {
+            VideoToFrames.ReadFromVideo();
             IsPlaying(true);
             if (btnPlay.Content.ToString() == "Play")
             {
