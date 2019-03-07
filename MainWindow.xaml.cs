@@ -2,13 +2,9 @@
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows;
-using System.Windows.Interop;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using AnaglyphGenerator.Models;
-using Microsoft.Win32;
 using Picture3D.AnaglyphApi;
-using Color = System.Windows.Media.Color;
 using MediaSampleWPF;
 using System.Drawing.Imaging;
 using System.Diagnostics;
@@ -171,7 +167,7 @@ namespace Picture3D
             //AlgorythmParameters parameters = null;
 
             //Call Algorithm
-            Bitmap newImage = new AnaglyphAlgorithmInvoker(argmunets.selectedAlgorythm).Apply(argmunets.image);
+            Bitmap newImage = new Bitmap(1,1);//new AnaglyphAlgorithmInvoker(argmunets.selectedAlgorythm).Apply(argmunets.image);
 
             //Save bmp to root of app
             SaveBitmapImage(newImage, argmunets.selectedAlgorythm, out imgLocation);
@@ -201,6 +197,7 @@ namespace Picture3D
             ConvertedImageTextBox.Text = response.location;
 
             //Update gui with new values for filters
+            VideoToFrames.videoToFrames.ReadFromVideo();
             SetFilterValues();
             
         }

@@ -22,7 +22,7 @@ namespace AnaglyphGenerator.Models
             int r, g, b;
             int tempX, tempY;
 
-            Bitmap outputImage = new Bitmap(width, height);
+            Bitmap outputImage = new Bitmap(width, height,System.Drawing.Imaging.PixelFormat.Format32bppRgb);
 
             for (int x = 0; x < width; x++)
             {
@@ -40,7 +40,6 @@ namespace AnaglyphGenerator.Models
                         b = 255;
                     if (g > 255)
                         g = 255;
-
                     Color c = Color.FromArgb(r, g, b);
                     outputImage.SetPixel(x, y, c);
                 }
