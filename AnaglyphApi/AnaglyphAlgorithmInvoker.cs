@@ -3,12 +3,15 @@ using AnaglyphGenerator.Models;
 using System.Drawing;
 using Picture3D;
 
+using System.Runtime.InteropServices;
+
 namespace AnaglyphGenerator.Models
 {
     public class AnaglyphAlgorithmInvoker
     {
         private IAnaglyph algorithm;
-
+      
+       
         public AnaglyphAlgorithmInvoker(string kindOfAlgorithm)
         {
             switch (kindOfAlgorithm)
@@ -21,6 +24,8 @@ namespace AnaglyphGenerator.Models
                     break;
                 case "Color Anaglyph":
                     System.Diagnostics.Debug.WriteLine("sssssss");
+                   // algorithm = new ColorAnaglyph();
+                   
                     algorithm = new ColorAnaglyph();
                     break;
                 case "Half-color Anaglyph":

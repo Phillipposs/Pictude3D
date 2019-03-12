@@ -391,11 +391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Filip\\source\\repos\\Phillipposs\\Picture3D\\Picture3D.csproj",
+      "projectUniqueName": "C:\\Users\\Filip\\Source\\Repos\\Phillipposs\\Picture3D\\Picture3D.csproj",
       "projectName": "Picture3D",
-      "projectPath": "C:\\Users\\Filip\\source\\repos\\Phillipposs\\Picture3D\\Picture3D.csproj",
+      "projectPath": "C:\\Users\\Filip\\Source\\Repos\\Phillipposs\\Picture3D\\Picture3D.csproj",
       "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Filip\\source\\repos\\Phillipposs\\Picture3D\\obj\\",
+      "outputPath": "C:\\Users\\Filip\\Source\\Repos\\Phillipposs\\Picture3D\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
