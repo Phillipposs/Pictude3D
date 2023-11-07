@@ -1,9 +1,0 @@
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\MediaSampleWPF.csprojResolveAssemblyReference.cache
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\Window1.baml
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\MainWindow.g.cs
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\Window1.g.cs
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\App.g.cs
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\Picture3D_MarkupCompile.cache
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\Picture3D_MarkupCompile.lref
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\Picture3D.exe
-C:\Users\SrOLjo.0\Desktop\D\P\Picture3D\obj\Debug\Picture3D.pdb
